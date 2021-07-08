@@ -9,3 +9,14 @@ npm install
 npm run dev
 ```
 
+Installing Tailwind CSS as a PostCSS plugin
+
+```bash
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
+
+Create your configuration files for Tailwind and PostCSS
+
+```bash
+npx tailwindcss init -p
+```
