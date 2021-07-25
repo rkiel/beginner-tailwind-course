@@ -15,7 +15,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundOpacity: ["even"],
+      borderRadius: ["first", "last"],
+    },
   },
   plugins: [],
 };
